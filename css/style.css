@@ -1,0 +1,1110 @@
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*СТИЛИ ДЛЯ ВСЕГО САЙТА*/
+
+body{
+	font-family: 'Montserrat', sans-serif; /*подключаем шрифт Montserrat для всего сайта*/
+	margin: 0 -15px; /*убираем отступы по бокам*/
+}
+
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*СТИЛИ ДЛЯ HEADER (ВЕРХУШКА САЙТА)*/
+
+header div.menu{      /*задаем параметры контейнеру в котором содержится две колонки (если непонятно че за контейнер,сделай рамку)*/
+    height: 134px; /*задаем высоту контейнера*/
+    background: rgba(0,0,0, 0.4); /*задаем цвет фона, параметр 0.4 - это прозрачность*/
+}
+
+header{ /*задаем параметры контейру хедер*/
+	height: 967px; /*задаем высоту*/
+	background-image: url(../img/back-header.jpg); /*задаем на фон картинку*/
+	background-repeat: no-repeat; /*это что бы фон не повторялся*/
+    background-position: center center; /*размещаем картинку по центру*/
+}
+
+
+header div.menu a img{ /*задаем параметры для картинки "Auestera"*/
+     display: block; /*делаем картинку блоком*/
+     padding-top: 50px; /*делаем отступ сверху 50 пикселей*/
+     padding-left: 100px; /*делаем отступ слева 100 пикселей*/
+}
+
+header nav ul{
+	list-style-type: none; /*убираем маркировку (наши списки будут без кружочком, цифр и т.д)*/
+    padding-right: 50px; /*делаем отступ во внутрь справой стороны*/
+    margin: 0;
+}
+
+header nav ul li{
+	display: inline-block; /*делаем списки из блока в строку (что бы они шли в одной строке)*/
+	margin-right: 50px; /*делаем отступ между списками в 50 пикселей справа*/
+}
+
+
+header nav ul li a{ /*задаем параметры для шрифта в правых четырех ссылках*/
+	color: #fff; /*задаем цвет*/
+	font-size: 18px; /*делаем размер шрифта*/
+	text-decoration: none; /*убираем подчеркивание*/
+}
+
+header nav ul li a:hover{ /*задаем стиль для селектора (что будет происходить при наведении на ссылку)*/
+	color: #39b9ef; /*задаем цвет*/
+	text-decoration: underline; /*делаем линию которая подчеркивает ссылку*/
+
+}
+
+/*-------------------------------------------------------------------*/
+/*Надпись в цетре формы*/
+
+header div.call-to h1{ /*большая надпись*/
+	margin-top:250px; /*делаем отступ сверху 250 px*/
+	margin-bottom: 0px; /*убираем снизу отступ*/
+    text-align: center; /*расположение текста по центру*/
+    color: #fff; /*цвет текста*/
+    font-size: 72px; /*размер текста*/
+    font-weight: bold; /*делаем текст жирным*/ 
+}
+
+header div.call-to h1 span{ /*делаем первое слово голубым*/
+    color:#2ebaee;
+}
+
+
+header div.call-to p{ /*надпись поменьше*/
+	color:#fff; /*цвет*/
+	font-size:24px; /*размер текста*/
+	text-align:center; /*раксположение по центру*/
+	margin-top: 20px; /* отступ сверху*/
+}
+
+
+header div.call-to a.learn-more{
+	display: block; /*делаем элемент блочным*/
+	width: 215px;  /*ширина кнопки*/
+	height: 50px; /*высота кнопки*/
+	background: #2ebaee; /* цыет фона*/
+	color: #fff; /*цыет шрифта*/
+	border-radius: 24px; /*закругление*/
+	text-align: center; /*текст по центру*/
+	margin:0 auto; /*делаем кнопку по центру*/
+	line-height: 50px; 
+	font-size: 18px; /*размер шрифта*/
+	font-weight: bold; /*делаем текст жирным*/
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*
+
+div.menu{
+	border: 5px solid blue;
+}
+
+div.col-md-3{
+	border: 5px solid red;
+}
+
+div.col-md-9{
+	border: 5px solid green;
+}
+
+
+
+
+
+div.call-to{
+	border: 5px solid green;
+}
+
+div.col-12{
+	border: 5px solid red;
+}
+
+
+
+div.container-fluid{
+	border: 1px solid red;
+}
+
+
+
+ul{
+	border: 1px solid red;
+}
+
+li{
+	border: 1px solid yellow;
+}
+
+
+
+header div.call-to h1
+{
+	border: 1px solid yellow;
+}
+
+header div.call-to p
+{
+	border: 1px solid yellow;
+}
+
+*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+div.back-services{
+	background-image: url(../img/back-services.jpg);
+	background-repeat: no-repeat; /*картинка не повторяется*/
+	background-position: -250px -250px; /*расположение по центру*/
+	padding-bottom: 140px;
+	
+}
+
+section.our-services h2{ /*делаем заголовок*/
+	color: #242424; /*цвет текста*/
+	font-size: 48px; /*размер текста*/
+    text-align: center; /*расположение по центру*/
+    margin-top: 70px;
+    border-bottom: 2px solid #e7e7e7; /*делаем нижнюю серую линию*/
+    padding-bottom: 80px; /*делаем отступ снизу 80px*/
+}
+
+
+section.our-services div.services div{ /*наши 4 контейнера*/
+	padding-top: 80px; /*делаем отступ сверху 80 пикселей*/
+}
+
+div.services div img{ /*картинки*/
+	display: block; /*делаем блоком*/
+	margin-bottom: 50px; /*отступ снизу*/
+}
+
+
+div.services div h3{ /*заголовки*/
+	color: #242424; /*цвет шрифта*/
+	font-size: 24px; /*размер шрифта*/
+	margin-bottom: 34px; /*jncneg cybpe*/
+}
+
+
+div.services div p,div.services-2 p{
+    color: #878787; /*цвет текста*/
+    font-size: 16px; /*размер текста*/
+    line-height: 24px;/*расстояние между строками*/
+    max-width: 520px;
+}
+
+
+
+section.our-services a.buttom {
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #2ebaee;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #fff; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin: 65px auto;
+}
+
+section.our-services a.buttom:hover,div.services-2 a:hover{/*при наведении на ссылку*/
+	color: #2ebaee;
+	background: #fff;
+	border:1px solid #2ebaee;
+}
+
+
+div.services-2{
+	margin-top: 180px;
+}
+
+div.services-2 h3{
+	color:#242424;
+	font-size: 36px;
+	margin-top: 100px;
+}
+
+div.services-2 a{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #2ebaee;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #fff; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin-top: 50px;
+}
+
+div.services-3 h3{
+    color: #fff;
+    font-size: 36px;  
+}
+
+div.services-3 p{
+	color: #fff;
+	font-size: 16px; 
+}
+
+div.services-3 a{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #fff;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #2ebaee; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin-top: 50px;
+}
+
+div.services-3 a:hover{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #2ebaee;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #2fff; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin-top: 50px;
+	border: 1px solid white;
+}
+
+
+
+
+div.services-2 img{ /*картинка для ноута*/
+	width: 100%;
+}
+
+
+div.services-3{  /*делаем отступ сверху для блока с планшетом*/
+	margin-top: 240px;
+}
+
+div.services-3 div.serv2{/*делаем отступ слева для блока с планшетом*/
+	padding-left: 35px;
+}
+
+div.services-3 img{ /*картинка для ноута*/
+	width: 90%;
+
+}
+
+
+section.boy div a{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #2ebaee;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #fff; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin-top: 50px;
+}
+
+section.boy div a:hover{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #fff;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #2ebaee; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin-top: 50px;
+	border: 1px solid #2ebaee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+section.our-services{
+	border: 5px solid blue;
+}
+
+section.our-services div.services div{
+	border: 5px solid red;
+}
+
+div.services div img{
+	border: 1px solid black;
+}
+
+div.services div h3{
+	border: 1px solid green;
+}
+
+ div.col-6{
+ 	border: 5px solid red;
+ }
+
+ */
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+section div.boy2{/*контейнер под фото с парнем*/
+	height: 638px;
+}
+
+section div.boy2 img{ /*настраиваем фотографию а то она уезжает*/
+	width: 100%;
+	height: 100%;
+}
+
+
+section.boy div h3{ /*работаем с заголовком*/
+	font-size: 72px; /*размер шрифта*/
+	color:black; /*цвет*/
+	max-width: 600px; /*ширина*/
+}
+
+section.boy div p{ /*работаем с заголовком*/
+	font-size: 16px; /*размер шрифта*/
+	color:#878787; /*цвет*/
+	max-width: 600px; /*ширина*/
+}
+
+section.boy div.zapis{ /*блок с надписями и кнопкой*/
+	padding-left: 75px; /*делаем отступ во внутрь*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+section div.boy2{
+	border: 5px solid red;
+}
+
+section.boy div h3{
+	border: 1px solid green;
+}
+
+section.boy div p{
+	border: 1px solid blue;
+}
+
+section.boy div.zapis{
+	border: 5px solid blue;
+}
+*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+section.next-boy{ /*задаем минимальную высоту блока*/
+	min-height: 430px
+}
+
+section.next-boy div.block-1{ /*редактируем фон первого блока*/
+	background-image: url(../img/ico-07.png);
+	min-height: 430px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+section.next-boy div.block-2{ /*редактируем фон второго блока*/
+	background-image: url(../img/ico-08.png);
+	min-height: 430px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+section.next-boy div.block-3{ /*редактируем фон третьего блока*/
+	background-image: url(../img/ico-09.png);
+	min-height: 430px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+section.next-boy div.block-4{ /*редактируем фон четвертого блока*/
+	background-image: url(../img/ico-10.png);
+	min-height: 430px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+section.next-boy h4{ /*редактируем заголовки*/
+	color:#fff;
+	font-size: 48px;
+	font-weight: bold; /*задаем текст заголовка жирным*/
+	height: 100%; /*мы делаем затемнение через заголовки поэтому заголовок у нас на всю высоту блока*/
+	width: 100%;  /*мы делаем затемнение через заголовки поэтому заголовок у нас на всю ширину блока*/
+	background: rgba(0,0,0,0.7);
+	margin: 0; /*сбрасываем отступы для заголовков*/
+	padding: 140px 65px 0px 65px; 
+}
+
+section.next-boy h4:hover{ /*редактируем заголовки при наведении*/
+	color:#fff;
+	font-size: 48px;
+	font-weight: bold; /*задаем текст заголовка жирным*/
+	height: 100%; /*мы делаем затемнение через заголовки поэтому заголовок у нас на всю высоту блока*/
+	width: 100%;  /*мы делаем затемнение через заголовки поэтому заголовок у нас на всю ширину блока*/
+	background: rgba(57,157,195,0.7);
+	margin: 0; /*сбрасываем отступы для заголовков*/
+	padding: 140px 65px 0px 65px; 
+}
+
+
+
+
+
+
+/*
+
+section.next-boy{
+	border: 5px solid red;
+}
+
+section.next-boy div.block-1{
+		border: 5px solid blue;
+}
+
+section.next-boy div.block-2{
+		border: 5px solid blue;
+}
+
+section.next-boy div.block-3{
+		border: 5px solid blue;
+}
+
+section.next-boy div.block-4{
+		border: 5px solid blue;
+}
+
+section.next-boy div.row{
+		border: 5px solid green;
+}
+
+section.next-boy h4{
+	border: 1px solid yellow;
+}
+*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+section.check-our{ /*работаем с секцией с 4 людьми*/
+    height: 850px;
+}
+
+section.check-our h2{ /*работаем с заголовком*/
+    color: #2ebaee; /*цвет текста*/
+    font-size: 72px; /*размер текста*/
+}
+
+section.check-our h2 span{
+	color: #000;  /*цвет текста*/
+}
+
+
+section.check-our img{
+    display: block; /*делаем элемент блоком*/
+    margin: 0 auto; /*делаем изображения по центру*/
+    width: 234px;
+    height: 234px;
+    margin-top: 32px;
+}
+
+
+section.check-our div.name{
+	color:#242424;
+	font-size: 34px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+section.check-our div.awersome span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color:#878787;
+	margin-top: 15px;
+}
+
+section.check-our div.awersome a{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #2ebaee;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #fff; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin: 30px auto;
+}
+
+section.check-our div.awersome a:hover{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #fff;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #2ebaee; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin: 30px auto;
+	border: 1px solid #2ebaee;
+}
+
+
+
+
+
+
+
+
+/*
+
+section.check-our{
+	border: 5px solid red;
+}
+
+section.check-our h2{ 
+    border: 1px solid blue;
+}
+
+section.check-our h2 span{
+	  border: 1px solid green;
+}
+
+section.check-our img{
+      border: 1px solid red;
+}
+
+section.check-our div.awersome span{
+      border: 1px solid black;
+}
+
+section.check-our div.name{
+      border: 1px solid red;
+}
+
+*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+section.footer{/*задаем фон*/
+	background-image: url(../img/back-footer.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 724px;
+}
+
+section.footer div.contact{ /*заголовок*/
+	color: #fff; /*цвет*/
+    font-size: 68px; /*размер шрифта*/
+    font-weight: bold; /*делаем текст жирным*/
+    margin-top: 115px; /*отступ сверху*/
+}
+
+section.footer p.adress{
+	color: #878787;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+section.footer p.phone{ /*работаем с номерами и емэилом*/
+	color: #878787; /*цвет*/
+	font-size: 32px;
+	margin: 24px 0 0 0;
+}
+
+
+section.footer p span {
+	color:#2ebaee;
+}
+
+section.footer ul{
+	list-style-type: none; /*убираем маркировку*/
+	margin-top: 70px;
+	padding: 0;
+}
+
+section.footer ul li{
+	display: inline-block;/*Делаем строку*/
+	width: 55px; /*ширина*/
+	height: 55px; /*высота*/
+	border-radius: 27px; /*делаем круг*/
+	margin-right: 37px; /*делаем отступы друг для друга*/
+}
+
+section.footer ul li.facebook{ /*делаем фон иконки*/
+	background: #55acee;
+	padding: 20px 23px;
+}
+
+section.footer ul li.twitter{ /*делаем фон иконки*/
+	background: #3b5998;
+	padding: 20px 19px;
+}
+
+section.footer ul li.pinterest{ /*делаем фон иконки*/
+	background: #cc2127;
+	padding: 20px 22px;
+}
+
+section.footer ul li.google{ /*делаем фон иконки*/
+	background: #dd4b39;
+	padding: 20px 18px;
+}
+
+section.footer ul li.mail{ /*делаем фон иконки*/
+	background: #e23047;
+	padding: 20px 18px;
+}
+
+section.footer ul li:hover{ /*при наведении*/
+	background: rgba(130,130,130,0.6);
+	cursor: pointer; /*можно нажать наведя на весь блок*/
+}
+
+section.footer input[type="text"], section.footer input[type="email"]{
+	width: 635px;
+	height: 60px;
+	background: none; /*убираем фон*/
+	border-radius: 6px;
+	border: 1px solid #535353;
+	color: #fff;
+	font-size: 17px;
+	display: block;
+	padding-left: 30px;
+	margin: 20px auto; 
+}
+
+section.footer input[type="text"]{
+	margin-top: 126px;
+}
+
+
+section.footer textarea{
+	width: 635px;
+	height: 200px;
+	background: none;
+	border-radius: 6px;
+	border: 1px solid #535353;
+	color: #fff;
+	font-size: 17px;
+	display: block;
+	padding: 30px;
+	margin: 20px auto; 
+	resize: none; /*запрещает растягивать окно комментария*/
+}
+
+section.footer button{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #2ebaee;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #fff; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin: 30px auto;
+	border: none; /*убираем рамку*/
+
+}
+
+section.footer button:hover{
+	display: block; /*делаем блоком*/
+	text-align: center; /*кнопка располагается по центру*/
+	text-decoration: none; /*не будет подчеркивания*/
+	background: #fff;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px; /*размер шрифта*/
+	color: #2ebaee; /*цыет текста*/
+	line-height: 44px; /*выравниваем по центру*/
+	margin: 30px auto;
+}
+
+
+
+
+/*
+
+section.footer{
+	border: 5px solid red;
+}
+
+section.footer div.contact{
+	border: 5px solid green;
+}
+
+section.footer p.adress{
+	border: 5px solid yellow;
+}
+
+section.footer p.phone{
+border: 5px solid red;
+}
+
+section.footer div.left{
+	border: 5px solid yellow;
+}
+*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+footer{ /*самая нижняя строка*/
+	height: 135px;
+	background: #000;
+}
+
+footer p , footer ul{
+	list-style-type: none;
+	margin-top: 56px;
+    padding: 0;
+    color: #fff;
+}
+
+footer ul li{
+	display: inline-block; /*делаем строкой*/
+	margin-right: 20px;
+}
+
+footer ul li a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none; /*убираем подчеркивание*/
+	font-weight: bold;
+}
+
+footer ul li a:hover{
+	text-decoration: underline; /*даавляем подчеркивание*/
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	header div.call-to h1 {
+    margin-top: 60px;
+    font-size: 48px;
+}
+header div.call-to p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+header {
+    height: 560px;
+}
+
+div.services div h3 {
+    text-align: center;
+}
+
+ div.services div img{
+  	display: block;
+  	margin: 0 auto;
+  	width: 80px;
+  }
+
+ div.services-2 h3,div.services-3 h3{
+  	margin: 0 ;
+  }
+      div.back-services {
+    background-image: url(../img/back-services.jpg);
+    background-repeat: no-repeat;
+    background-position: -250px -250px;
+    padding-bottom:0px;
+}
+div.services-3 a:hover {
+    margin-bottom: 30px;
+}
+div.services-3 a {
+    margin-bottom: 30px;
+}
+
+section.boy div h3 {
+    font-size: 28px;
+    width: 90%
+    margin:10 auto;
+    text-align: center;
+}
+section div.boy2 {
+    height: 438px;
+}
+
+  
+section.next-boy h4:hover {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    background: rgba(57,157,195,0.7);
+    margin: 0;
+    padding: 120px 65px 40px 65px;
+}
+
+section.next-boy h4 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    margin: 0;
+    padding: 120px 65px 40px 65px;
+    text-align: center;
+
+}
+section.check-our h2 {
+    text-align: center;
+    font-size: 48px;
+    }
+
+section.check-our img {
+  
+    width: 200px;
+    height: 200px;
+}
+
+section.check-our {
+    height: 1050px;
+}
+
+section.footer div.contact {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 35px;
+    text-align: center;
+}
+
+section.footer p.phone {
+    color: #878787;
+    font-size: 24px;
+    margin: 14px auto;
+    text-align: center;
+}
+
+section.footer ul {
+    list-style-type: none;
+    padding:20px;
+    margin: 0 0 0 17%;
+}
+
+
+
+section.footer p.adress {
+    color: #878787;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+section.footer{
+	background-position:  top center;
+	background-repeat: no-repeat;
+	height: 724px;
+}
+
+section.footer input[type="text"]{
+    margin-top:  10px;
+}
+
+section.footer textarea {
+   
+    height: 120px;
+    
+}
+
+footer ul li {
+    margin-right: 12px;
+}
+
+footer p, footer ul {
+    padding: 0 10px;
+    text-align: right;
+   
+}
+
+
+}
+
+/*____________________________________________________________________________*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	div.services div p{
+	padding-right: 10px;
+	text-align: center;
+ }
+
+  div.services div h3 {
+  	padding-right: 10px;
+  	text-align: center;
+  }
+
+  div.services div img{
+  	display: block;
+  	margin: 0 auto;
+  	width: 80px;
+  }
+
+  div.services-2 h3,div.services-3 h3{
+  	margin: 0 ;
+  }
+
+  div.services-3{
+    margin-top: 20px; 
+  }
+
+  section.boy div h3{
+  	margin: 0;
+  	font-size: 36px;
+  	text-align: center;
+  }
+
+  section.boy{
+  	height: auto;
+  }
+  
+   section.next-boy h4{
+ 	font-size: 30px;
+ }
+
+ section.next-boy h4:hover{
+ 	font-size: 30px;
+ }
+
+ section.check-our h2{
+ 	text-align: center;
+ 	font-size: 48px;
+ }
+
+ section.check-our img {
+    width: 200px;
+    height: 200px;
+}
+section.check-our div.name {
+    font-size: 24px;
+  }
+section.check-our {
+    height: 650px;
+}
+section.footer div.contact {
+    font-size: 36px;
+}
+section.footer p.adress {
+    font-size: 14px;
+}
+section.footer p.phone {
+    font-size: 24px;
+}
+section.footer ul li {
+    margin-right: 10px;
+    }
+ section.footer input[type="text"], section.footer input[type="email"], section.footer textarea {
+ 	width: 400px;
+ }
+ section.footer {
+    
+    height: auto;
+}
+
+section div.boy2 {
+    height: 438px;
+}
+
+/*____________________________________________________________________________*/
+
+
+@media (min-width: 1200px) and (max-width: 1409.98px){ /*если страница сжимается в промежутке от 1200 до 1409.98 пикселей*/
+
+	header div.call-to h1{
+		width: 88%;
+		margin: 250px auto;
+}
+
+
+	div.services div p{
+	padding-right: 10px;
+ }
+
+ section.next-boy h4{
+ 	font-size: 36px;
+ }
+
+ section.next-boy h4:hover{
+ 	font-size: 36px;
+ }
+
+ section.check-our h2{
+ 	text-align: center;
+ }
+
+ section.footer input[type="text"], section.footer input[type="email"], section.footer textarea {
+ 	width: 400px;
+ }
+
+ footer p{
+ 	text-align: right;
+
+ }
+
+}
+
+
+
+.img-adaptive{
+	display: block;
+	max-width: 100%
+	height: auto;
+}
