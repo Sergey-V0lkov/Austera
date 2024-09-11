@@ -9,3 +9,4 @@
 - кроссбраузерность :heavy_check_mark:
 - bootstrap :heavy_check_mark:
 - JavaScript :heavy_multiplication_x:
+---
