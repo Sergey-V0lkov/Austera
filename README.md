@@ -4,7 +4,7 @@
 
 
 
-Красивый HTML шаблон, с элементами адаптивности  
+Красивый HTML шаблон, с элементами адаптивности  :fire::fire::fire:
 - адаптивность :heavy_check_mark:
 - кроссбраузерность :heavy_check_mark:
 - bootstrap :heavy_check_mark:
